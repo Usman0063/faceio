@@ -9,11 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FaceIo">
-        <activity android:name=".Permissions"></activity>
-        <activity android:name=".LoginTwo" />
-        <activity android:name=".VerifyEmail" />
-        <activity android:name=".Welcome" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".PermissionsActivity"></activity>
+        <activity android:name=".VerifyEmailActivity" />
+        <activity android:name=".WelcomeActivity" />
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
